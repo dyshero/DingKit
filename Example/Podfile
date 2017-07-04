@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'DingKit_Example' do
-  pod 'DingKit', :path => '../'
+  pod 'DingKit'
 
   target 'DingKit_Tests' do
     inherit! :search_paths
