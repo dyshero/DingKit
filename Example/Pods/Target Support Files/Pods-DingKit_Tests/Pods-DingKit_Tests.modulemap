@@ -1,0 +1,6 @@
+framework module Pods_DingKit_Tests {
+  umbrella header "Pods-DingKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

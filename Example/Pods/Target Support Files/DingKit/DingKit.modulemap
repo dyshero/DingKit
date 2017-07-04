@@ -1,0 +1,6 @@
+framework module DingKit {
+  umbrella header "DingKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

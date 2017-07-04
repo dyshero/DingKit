@@ -1,0 +1,16 @@
+PODS:
+  - DingKit (0.1.0)
+
+DEPENDENCIES:
+  - DingKit (from `../`)
+
+EXTERNAL SOURCES:
+  DingKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DingKit: a904ae8337a77b7e8f3be1f3c781db35a06cf65e
+
+PODFILE CHECKSUM: 137caddc618dfc8da62791b58e27149d55ac4e90
+
+COCOAPODS: 1.2.1
