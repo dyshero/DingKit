@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "TestView.h"
 
 FOUNDATION_EXPORT double DingKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char DingKitVersionString[];

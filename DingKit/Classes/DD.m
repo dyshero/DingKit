@@ -1,14 +1,14 @@
 //
-//  TestView.m
+//  DD.m
 //  Pods
 //
 //  Created by duodian on 2017/7/4.
 //
 //
 
-#import "TestView.h"
+#import "DD.h"
 
-@implementation TestView
+@implementation DD
 
 /*
 // Only override drawRect: if you perform custom drawing.
