@@ -19,6 +19,8 @@
 		CB74A5A43801830BD887C220BD11658F /* Pods-DingKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD111EE0DC7EF0EFA3F03EE8D20D1B /* Pods-DingKit_Tests-dummy.m */; };
 		CBA2CDF903DB3D4FB137FE37D5DFAAF9 /* DingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7B8D26D4F3151845F71B737AB4A2F /* DingKit-dummy.m */; };
 		EC6AD83B2EEF1FCE74367F647CB9081C /* Pods-DingKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3B566326B61D35350365136E042E98 /* Pods-DingKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8AA9C51F0BB3DE0066256C /* YYView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8AA9C31F0BB3DE0066256C /* YYView.h */; };
+		FB8AA9C61F0BB3DE0066256C /* YYView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8AA9C41F0BB3DE0066256C /* YYView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00520933833D0EB64D50A11E66402AAC /* DingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DingKit.modulemap; sourceTree = "<group>"; };
-		026FAFFCDD96485AD5C09B4ED776FC7C /* Pods_DingKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DingKit_Tests.framework; path = "Pods-DingKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B4BA96F600D610BC0F045C26E39182C /* Pods_DingKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DingKit_Example.framework; path = "Pods-DingKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		128EDAF00B85831F6B43217D929734AC /* Pods-DingKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DingKit_Example.modulemap"; sourceTree = "<group>"; };
+		00520933833D0EB64D50A11E66402AAC /* DingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DingKit.modulemap; sourceTree = "<group>"; };
+		026FAFFCDD96485AD5C09B4ED776FC7C /* Pods_DingKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DingKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4BA96F600D610BC0F045C26E39182C /* Pods_DingKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DingKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		128EDAF00B85831F6B43217D929734AC /* Pods-DingKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DingKit_Example.modulemap"; sourceTree = "<group>"; };
 		1D0DE438339C8204DEEA6B5902CBE652 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D3B566326B61D35350365136E042E98 /* Pods-DingKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DingKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		269AFAD2D7BAF2F4797AF2867A2BCBFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		381F8F76F437D9FE7EDAA413595A0E5C /* Pods-DingKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DingKit_Tests.modulemap"; sourceTree = "<group>"; };
+		381F8F76F437D9FE7EDAA413595A0E5C /* Pods-DingKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DingKit_Tests.modulemap"; sourceTree = "<group>"; };
 		4510D1456909D7A26B9C30E8E0ABE647 /* Pods-DingKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DingKit_Example-dummy.m"; sourceTree = "<group>"; };
 		46357864CEF2BAFC5964D010744C9828 /* Pods-DingKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DingKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F29957488508434042C24AAD496DCEF /* Pods-DingKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DingKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -50,9 +52,9 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DCF38A74D52D74AFAB056875D96472B /* Pods-DingKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DingKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		84BD111EE0DC7EF0EFA3F03EE8D20D1B /* Pods-DingKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DingKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07BDC09364B0C18A9C6EFE9CFE3AAAC /* Pods-DingKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DingKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		A3962302C082F64233CE53BCA4ABADAF /* DingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DingKit.framework; path = DingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3962302C082F64233CE53BCA4ABADAF /* DingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A946488ED13D8B230629BAC28DEF5581 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABEABEB2794F6586791C73076FC25F8E /* DingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DingKit-prefix.pch"; sourceTree = "<group>"; };
 		ADDDA3DB19F015D961733CA91CC4BD6C /* Pods-DingKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DingKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -64,6 +66,8 @@
 		E51BDA8BA65113645DCDBE3D19B64888 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DingKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		EC3A5CE9F5A694791A6EB9B11CB1F37D /* DingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DingKit-umbrella.h"; sourceTree = "<group>"; };
 		EF11643583534FEB79E160C4F20E35B7 /* Pods-DingKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DingKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FB8AA9C31F0BB3DE0066256C /* YYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYView.h; sourceTree = "<group>"; };
+		FB8AA9C41F0BB3DE0066256C /* YYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYView.m; sourceTree = "<group>"; };
 		FB973B3DFCD80DBC9CCDAEF49ABC3BC3 /* Pods-DingKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DingKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FCF56AE161D876EDFDD578245E1C79B6 /* Pods-DingKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DingKit_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,12 +163,13 @@
 		3F9E151F9DF91FBD8318C3F1D6822A3D /* DingKit */ = {
 			isa = PBXGroup;
 			children = (
+				FB8AA9C31F0BB3DE0066256C /* YYView.h */,
+				FB8AA9C41F0BB3DE0066256C /* YYView.m */,
 				E51BDA8BA65113645DCDBE3D19B64888 /* ReplaceMe.m */,
 				BD32B2DA4265C84B2449664AF3E550A0 /* TestView.h */,
 				B9D352988ED2134FCA4B9AB7A9C24463 /* TestView.m */,
 				3BE91C0C37F339A258C78F1962CAEA1D /* Support Files */,
 			);
-			name = DingKit;
 			path = DingKit;
 			sourceTree = "<group>";
 		};
@@ -228,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98A08731666BC78139DAF4C6AE4337E1 /* DingKit-umbrella.h in Headers */,
+				FB8AA9C51F0BB3DE0066256C /* YYView.h in Headers */,
 				43513F6944A869118F7E33E086939637 /* TestView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8AA9C61F0BB3DE0066256C /* YYView.m in Sources */,
 				CBA2CDF903DB3D4FB137FE37D5DFAAF9 /* DingKit-dummy.m in Sources */,
 				6A965BDAFC4B454E8E9441047CC70999 /* ReplaceMe.m in Sources */,
 				7BE902378061AFDD4E464E39A1B551AD /* TestView.m in Sources */,
