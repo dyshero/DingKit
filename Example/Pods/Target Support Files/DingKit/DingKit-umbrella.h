@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DD.h"
 
 FOUNDATION_EXPORT double DingKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char DingKitVersionString[];
