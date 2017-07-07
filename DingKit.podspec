@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DingKit'
   s.version          = '0.7.0'
-  s.summary          = '循环滚动播放图片.'
+  s.summary          = 'A Cocoa Tool Kit of iOS components..'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-循环滚动播放图片,自动播放,手动播放
+    一个iOS集成实用工具库,以后会添加更多更多的工具，实用类，封装类，封装小效果
                        DESC
 
   s.homepage         = 'https://github.com/dyshero/DingKit.git'

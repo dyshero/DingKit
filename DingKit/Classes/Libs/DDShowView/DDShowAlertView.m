@@ -57,7 +57,6 @@
     CGFloat contentWidth = kDDScreenWidth_Show*0.7;
     
     self.DD_cententView=[[UIView alloc]initWithFrame:CGRectMake(0, 0, contentWidth, kDDScreenWidth_Show*0.4)];
-    //    self.fan_cententView.center=self.center;
     self.DD_cententView.backgroundColor=[UIColor whiteColor];
     [self addSubview:self.DD_cententView];
     
