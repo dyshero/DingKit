@@ -1,12 +1,16 @@
 PODS:
-  - DingKit (0.5.0)
+  - DingKit (0.6.0)
 
 DEPENDENCIES:
-  - DingKit
+  - DingKit (from `../`)
+
+EXTERNAL SOURCES:
+  DingKit:
+    :path: ../
 
 SPEC CHECKSUMS:
-  DingKit: e5944032694651aad4c2146efce81485199ad19d
+  DingKit: 3d1066cee09dfdf3f1d2cacffd5c35ce9f395e79
 
-PODFILE CHECKSUM: 5b7d5ebc61c4012753e60f4881cbc9d7fddeba76
+PODFILE CHECKSUM: 97f7d67c94fd25a6c644320888cacd7fb623f36e
 
 COCOAPODS: 1.2.1

@@ -11,6 +11,8 @@
 #endif
 
 #import "DD.h"
+#import "UIImageView+Util.h"
+#import "WC.h"
 
 FOUNDATION_EXPORT double DingKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char DingKitVersionString[];

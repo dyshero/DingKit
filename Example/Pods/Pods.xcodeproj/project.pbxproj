@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113C1EEE08B27FD9826D394A55FC6003 /* UIImageView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EEA0FCC96B388E57C6393392D9774C /* UIImageView+Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A017721C429B9CAA62D10A448592DAF /* DD.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B4CBCFA2D7CC3B5383C03D4174C75C /* DD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A139327F76E82CDB6E5A1C8C66B3574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		26806775041B69270280CF417590D901 /* DingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1C653CABC53AFFBF50E90FA968DAA /* DingKit-dummy.m */; };
-		395EA7B94131D308C5C0A64FBDDAE631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		48D39655EEC4FEC10F6CC075D3AA7AEE /* Pods-DingKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4510D1456909D7A26B9C30E8E0ABE647 /* Pods-DingKit_Example-dummy.m */; };
+		49DD3A232B6F2039E91682B6EBE5DE23 /* DD.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E19EA030B4DFEAB96CB2C5A4768843 /* DD.m */; };
+		6195D6C37CEDDA917ABB1300CCD01ADE /* WC.h in Headers */ = {isa = PBXBuildFile; fileRef = 579C8C1150E381DBBD5FB94D4B2857C7 /* WC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66161C592ADA3903C6249A37E842FE04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		74DB32CB569DD88E14F396E4011E995E /* DD.h in Headers */ = {isa = PBXBuildFile; fileRef = 109594AFF59D34C58168B0307F52D118 /* DD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68F6C8ACC41B1BFE03B96C038AAB87C2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 511D684EE12DEBE3962F106C2DFF01A3 /* ReplaceMe.m */; };
+		6D264D022C04800967FDFEA69C2107C0 /* DingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 696C7F77850050BB324465A0B8CCFC4B /* DingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750547E40CA973D8F960FA8E38F2F29E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9A27893C42CB4387E1A06A8C987F39EF /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 733AAA9B4AC7FD42776FFF155E6B0AE2 /* WC.m */; };
 		9B84A6FBF648C32A827FF6401B166D4E /* Pods-DingKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCF38A74D52D74AFAB056875D96472B /* Pods-DingKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB74A5A43801830BD887C220BD11658F /* Pods-DingKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD111EE0DC7EF0EFA3F03EE8D20D1B /* Pods-DingKit_Tests-dummy.m */; };
-		DF1431DB0F4BD65333C395FC6EBC29A1 /* DD.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BFF4FE2978720FB2E027B94766180 /* DD.m */; };
+		E0E599C1809DC79F447C564EBA945B7B /* DingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A27E35BA7332C6976A5A1061EB391E /* DingKit-dummy.m */; };
+		E71462D43BF8D99696DCE205B77C452A /* UIImageView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D83FD01ED0A65E107E43E8CC37767C /* UIImageView+Util.m */; };
 		EC6AD83B2EEF1FCE74367F647CB9081C /* Pods-DingKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3B566326B61D35350365136E042E98 /* Pods-DingKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE2042C7CE022C1CA0BE19CE112CD372 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC22AEBD2075FAC6930BC24494DF4EA /* ReplaceMe.m */; };
-		FBE0229E1F0CCF3C00BF9850 /* UIImageView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE0229C1F0CCF3C00BF9850 /* UIImageView+Util.h */; };
-		FBE0229F1F0CCF3C00BF9850 /* UIImageView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE0229D1F0CCF3C00BF9850 /* UIImageView+Util.m */; };
-		FDAD88CFA10FECAF8A209678F67EA8EC /* DingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3546A4FAA2CAE5606ED83217DBADC4DC /* DingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,48 +30,50 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1EAF5DE9AFD5E35A86DF167D77D903C4;
+			remoteGlobalIDString = DBE96B6B8E9BE9FCDD1C16E9991409F2;
 			remoteInfo = DingKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026FAFFCDD96485AD5C09B4ED776FC7C /* Pods_DingKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DingKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		052F497C519D1403E16DD47A81165963 /* DingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DingKit.modulemap; sourceTree = "<group>"; };
-		0B4BA96F600D610BC0F045C26E39182C /* Pods_DingKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DingKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		109594AFF59D34C58168B0307F52D118 /* DD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DD.h; path = DingKit/Classes/DD.h; sourceTree = "<group>"; };
-		128EDAF00B85831F6B43217D929734AC /* Pods-DingKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DingKit_Example.modulemap"; sourceTree = "<group>"; };
+		00D83FD01ED0A65E107E43E8CC37767C /* UIImageView+Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Util.m"; sourceTree = "<group>"; };
+		026FAFFCDD96485AD5C09B4ED776FC7C /* Pods_DingKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DingKit_Tests.framework; path = "Pods-DingKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4BA96F600D610BC0F045C26E39182C /* Pods_DingKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DingKit_Example.framework; path = "Pods-DingKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		128EDAF00B85831F6B43217D929734AC /* Pods-DingKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DingKit_Example.modulemap"; sourceTree = "<group>"; };
 		1D3B566326B61D35350365136E042E98 /* Pods-DingKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DingKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		269AFAD2D7BAF2F4797AF2867A2BCBFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3546A4FAA2CAE5606ED83217DBADC4DC /* DingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DingKit-umbrella.h"; sourceTree = "<group>"; };
-		381F8F76F437D9FE7EDAA413595A0E5C /* Pods-DingKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DingKit_Tests.modulemap"; sourceTree = "<group>"; };
-		3FC22AEBD2075FAC6930BC24494DF4EA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DingKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		381F8F76F437D9FE7EDAA413595A0E5C /* Pods-DingKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DingKit_Tests.modulemap"; sourceTree = "<group>"; };
+		3CE3CB2A25B2675C6B354396952EDACB /* DingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DingKit-prefix.pch"; sourceTree = "<group>"; };
 		4510D1456909D7A26B9C30E8E0ABE647 /* Pods-DingKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DingKit_Example-dummy.m"; sourceTree = "<group>"; };
+		45EEA0FCC96B388E57C6393392D9774C /* UIImageView+Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Util.h"; sourceTree = "<group>"; };
 		46357864CEF2BAFC5964D010744C9828 /* Pods-DingKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DingKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F29957488508434042C24AAD496DCEF /* Pods-DingKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DingKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F844B5EB99AF15795874F06EBF11276 /* DingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DingKit-prefix.pch"; sourceTree = "<group>"; };
+		511D684EE12DEBE3962F106C2DFF01A3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		579C8C1150E381DBBD5FB94D4B2857C7 /* WC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
 		63A689A1772D825B0D91B23E69FB78F2 /* Pods-DingKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DingKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		655FCED5B73A526EAEB9D68607E9C13E /* Pods-DingKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DingKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		696C7F77850050BB324465A0B8CCFC4B /* DingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DingKit-umbrella.h"; sourceTree = "<group>"; };
+		733AAA9B4AC7FD42776FFF155E6B0AE2 /* WC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WC.m; sourceTree = "<group>"; };
 		7DCF38A74D52D74AFAB056875D96472B /* Pods-DingKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DingKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		84BD111EE0DC7EF0EFA3F03EE8D20D1B /* Pods-DingKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DingKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		959BFF4FE2978720FB2E027B94766180 /* DD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DD.m; path = DingKit/Classes/DD.m; sourceTree = "<group>"; };
-		972EDEEE61D948A89ED2BA91A4BA7828 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B4CBCFA2D7CC3B5383C03D4174C75C /* DD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DD.h; sourceTree = "<group>"; };
+		90E19EA030B4DFEAB96CB2C5A4768843 /* DD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DD.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07BDC09364B0C18A9C6EFE9CFE3AAAC /* Pods-DingKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DingKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		A3962302C082F64233CE53BCA4ABADAF /* DingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3962302C082F64233CE53BCA4ABADAF /* DingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DingKit.framework; path = DingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A946488ED13D8B230629BAC28DEF5581 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADDDA3DB19F015D961733CA91CC4BD6C /* Pods-DingKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DingKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7E1C653CABC53AFFBF50E90FA968DAA /* DingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DingKit-dummy.m"; sourceTree = "<group>"; };
+		B5196B3F095930D5C026D6B0C19CED9F /* DingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DingKit.xcconfig; sourceTree = "<group>"; };
+		B7A27E35BA7332C6976A5A1061EB391E /* DingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DingKit-dummy.m"; sourceTree = "<group>"; };
 		C2A776CA8143BA1DF1E0265FF9BCF04B /* Pods-DingKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DingKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C6BC692B5C9CF6C3EC70072E4A075F5F /* DingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DingKit.modulemap; sourceTree = "<group>"; };
 		C9EE61DD6110306BACD20A3FC482A844 /* Pods-DingKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DingKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D03339DB18EBA5F355E8A2203544250D /* Pods-DingKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DingKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D10B4EC11C498168E810EF6CB5A2F04D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF11643583534FEB79E160C4F20E35B7 /* Pods-DingKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DingKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB973B3DFCD80DBC9CCDAEF49ABC3BC3 /* Pods-DingKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DingKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FBE0229C1F0CCF3C00BF9850 /* UIImageView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Util.h"; path = "../../../DingKit/Classes/UIImageView+Util.h"; sourceTree = "<group>"; };
-		FBE0229D1F0CCF3C00BF9850 /* UIImageView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Util.m"; path = "../../../DingKit/Classes/UIImageView+Util.m"; sourceTree = "<group>"; };
 		FCF56AE161D876EDFDD578245E1C79B6 /* Pods-DingKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DingKit_Example-resources.sh"; sourceTree = "<group>"; };
-		FDEFCDD630B639859AB7E2E26C65500E /* DingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DingKit.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,19 +85,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3149ADD56DA94300ACAA6EBE21898311 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				395EA7B94131D308C5C0A64FBDDAE631 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9DAA0D9BFACE09FE8927A41B152EECA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A139327F76E82CDB6E5A1C8C66B3574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D0978383B91875B40A8C50FB80FFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750547E40CA973D8F960FA8E38F2F29E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,18 +122,12 @@
 			path = "Target Support Files/Pods-DingKit_Example";
 			sourceTree = "<group>";
 		};
-		11238B993AECDE7A5A6F803627ACB323 /* Support Files */ = {
+		14E3259F3EC90885B160FC68C13DAF25 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				052F497C519D1403E16DD47A81165963 /* DingKit.modulemap */,
-				FDEFCDD630B639859AB7E2E26C65500E /* DingKit.xcconfig */,
-				B7E1C653CABC53AFFBF50E90FA968DAA /* DingKit-dummy.m */,
-				5F844B5EB99AF15795874F06EBF11276 /* DingKit-prefix.pch */,
-				3546A4FAA2CAE5606ED83217DBADC4DC /* DingKit-umbrella.h */,
-				972EDEEE61D948A89ED2BA91A4BA7828 /* Info.plist */,
+				E0E18E2D98C9DD1BC3BF7EAE31A4A358 /* DingKit */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DingKit";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2736531B8DF68A517C9386952636DF08 /* Products */ = {
@@ -160,6 +158,29 @@
 			path = "Target Support Files/Pods-DingKit_Tests";
 			sourceTree = "<group>";
 		};
+		3B8241486F8BF9C19BB28D22CC285F4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6BC692B5C9CF6C3EC70072E4A075F5F /* DingKit.modulemap */,
+				B5196B3F095930D5C026D6B0C19CED9F /* DingKit.xcconfig */,
+				B7A27E35BA7332C6976A5A1061EB391E /* DingKit-dummy.m */,
+				3CE3CB2A25B2675C6B354396952EDACB /* DingKit-prefix.pch */,
+				696C7F77850050BB324465A0B8CCFC4B /* DingKit-umbrella.h */,
+				D10B4EC11C498168E810EF6CB5A2F04D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DingKit";
+			sourceTree = "<group>";
+		};
+		5A54FB8CC58F01E851411529522DB4D3 /* DingKit */ = {
+			isa = PBXGroup;
+			children = (
+				642FACEAE373DB7EE79A7EF793BA1231 /* Classes */,
+			);
+			name = DingKit;
+			path = DingKit;
+			sourceTree = "<group>";
+		};
 		62AF908D0131B0B8BDB6031B80BC9A0D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,23 +190,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		642FACEAE373DB7EE79A7EF793BA1231 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				88B4CBCFA2D7CC3B5383C03D4174C75C /* DD.h */,
+				90E19EA030B4DFEAB96CB2C5A4768843 /* DD.m */,
+				511D684EE12DEBE3962F106C2DFF01A3 /* ReplaceMe.m */,
+				45EEA0FCC96B388E57C6393392D9774C /* UIImageView+Util.h */,
+				00D83FD01ED0A65E107E43E8CC37767C /* UIImageView+Util.m */,
+				579C8C1150E381DBBD5FB94D4B2857C7 /* WC.h */,
+				733AAA9B4AC7FD42776FFF155E6B0AE2 /* WC.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14E3259F3EC90885B160FC68C13DAF25 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A929F4768781C5DA7EA6699E13EF54E4 /* Pods */,
 				2736531B8DF68A517C9386952636DF08 /* Products */,
 				62AF908D0131B0B8BDB6031B80BC9A0D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		A929F4768781C5DA7EA6699E13EF54E4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FF23D0BFE9CA31F3ED171991174545C1 /* DingKit */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -204,17 +232,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FF23D0BFE9CA31F3ED171991174545C1 /* DingKit */ = {
+		E0E18E2D98C9DD1BC3BF7EAE31A4A358 /* DingKit */ = {
 			isa = PBXGroup;
 			children = (
-				109594AFF59D34C58168B0307F52D118 /* DD.h */,
-				959BFF4FE2978720FB2E027B94766180 /* DD.m */,
-				3FC22AEBD2075FAC6930BC24494DF4EA /* ReplaceMe.m */,
-				FBE0229C1F0CCF3C00BF9850 /* UIImageView+Util.h */,
-				FBE0229D1F0CCF3C00BF9850 /* UIImageView+Util.m */,
-				11238B993AECDE7A5A6F803627ACB323 /* Support Files */,
+				5A54FB8CC58F01E851411529522DB4D3 /* DingKit */,
+				3B8241486F8BF9C19BB28D22CC285F4D /* Support Files */,
 			);
-			path = DingKit;
+			name = DingKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,13 +253,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A06C8DCCD6233141BCC8C1B2FEBD6E94 /* Headers */ = {
+		89B069C8B2B1D33F3DF7A42BAC35C1E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE0229E1F0CCF3C00BF9850 /* UIImageView+Util.h in Headers */,
-				74DB32CB569DD88E14F396E4011E995E /* DD.h in Headers */,
-				FDAD88CFA10FECAF8A209678F67EA8EC /* DingKit-umbrella.h in Headers */,
+				1A017721C429B9CAA62D10A448592DAF /* DD.h in Headers */,
+				6D264D022C04800967FDFEA69C2107C0 /* DingKit-umbrella.h in Headers */,
+				113C1EEE08B27FD9826D394A55FC6003 /* UIImageView+Util.h in Headers */,
+				6195D6C37CEDDA917ABB1300CCD01ADE /* WC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +275,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1EAF5DE9AFD5E35A86DF167D77D903C4 /* DingKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 560762ADF6D665CD7487C62F7636AD24 /* Build configuration list for PBXNativeTarget "DingKit" */;
-			buildPhases = (
-				9C2B4352393A276E77BC234A31F3BC4A /* Sources */,
-				3149ADD56DA94300ACAA6EBE21898311 /* Frameworks */,
-				A06C8DCCD6233141BCC8C1B2FEBD6E94 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DingKit;
-			productName = DingKit;
-			productReference = A3962302C082F64233CE53BCA4ABADAF /* DingKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3A7D82A630EAC22EECCFB288A72AC6DA /* Pods-DingKit_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF8F3EDD207694A2F0594F6B9DEFF1F1 /* Build configuration list for PBXNativeTarget "Pods-DingKit_Example" */;
@@ -282,6 +291,23 @@
 			name = "Pods-DingKit_Example";
 			productName = "Pods-DingKit_Example";
 			productReference = 0B4BA96F600D610BC0F045C26E39182C /* Pods_DingKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBE96B6B8E9BE9FCDD1C16E9991409F2 /* DingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15B964532EBBD7C0FF24BD86AF66BB9 /* Build configuration list for PBXNativeTarget "DingKit" */;
+			buildPhases = (
+				6232B4025CC7F66F9D4A8ED4D6961B83 /* Sources */,
+				D2D0978383B91875B40A8C50FB80FFFF /* Frameworks */,
+				89B069C8B2B1D33F3DF7A42BAC35C1E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DingKit;
+			productName = DingKit;
+			productReference = A3962302C082F64233CE53BCA4ABADAF /* DingKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F053ECEAB5B33122EAFF587E726B09FF /* Pods-DingKit_Tests */ = {
@@ -322,7 +348,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EAF5DE9AFD5E35A86DF167D77D903C4 /* DingKit */,
+				DBE96B6B8E9BE9FCDD1C16E9991409F2 /* DingKit */,
 				3A7D82A630EAC22EECCFB288A72AC6DA /* Pods-DingKit_Example */,
 				F053ECEAB5B33122EAFF587E726B09FF /* Pods-DingKit_Tests */,
 			);
@@ -346,14 +372,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C2B4352393A276E77BC234A31F3BC4A /* Sources */ = {
+		6232B4025CC7F66F9D4A8ED4D6961B83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1431DB0F4BD65333C395FC6EBC29A1 /* DD.m in Sources */,
-				26806775041B69270280CF417590D901 /* DingKit-dummy.m in Sources */,
-				FBE0229F1F0CCF3C00BF9850 /* UIImageView+Util.m in Sources */,
-				EE2042C7CE022C1CA0BE19CE112CD372 /* ReplaceMe.m in Sources */,
+				49DD3A232B6F2039E91682B6EBE5DE23 /* DD.m in Sources */,
+				E0E599C1809DC79F447C564EBA945B7B /* DingKit-dummy.m in Sources */,
+				68F6C8ACC41B1BFE03B96C038AAB87C2 /* ReplaceMe.m in Sources */,
+				E71462D43BF8D99696DCE205B77C452A /* UIImageView+Util.m in Sources */,
+				9A27893C42CB4387E1A06A8C987F39EF /* WC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +390,7 @@
 		2483ABF8B26EDC8B8E4BC034C7E5B33A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DingKit;
-			target = 1EAF5DE9AFD5E35A86DF167D77D903C4 /* DingKit */;
+			target = DBE96B6B8E9BE9FCDD1C16E9991409F2 /* DingKit */;
 			targetProxy = 87196A9CD42993C480CF3F4789E21372 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,38 +431,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		1DD2EF4021A3020009592751189D151B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDEFCDD630B639859AB7E2E26C65500E /* DingKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DingKit/DingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DingKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DingKit/DingKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DingKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -520,6 +515,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		60D70205C409F0982B6B7D9768A9A8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5196B3F095930D5C026D6B0C19CED9F /* DingKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DingKit/DingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DingKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DingKit/DingKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DingKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		6244447C06C2AF99CE0770D2E65CD898 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -637,16 +664,16 @@
 			};
 			name = Release;
 		};
-		CA4EC663748F716926069AEAF37B0FFD /* Release */ = {
+		B9E0AF8AE842FE73BB9BE466508E5B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDEFCDD630B639859AB7E2E26C65500E /* DingKit.xcconfig */;
+			baseConfigurationReference = B5196B3F095930D5C026D6B0C19CED9F /* DingKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -659,7 +686,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DingKit/DingKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = DingKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -667,7 +694,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -690,11 +717,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		560762ADF6D665CD7487C62F7636AD24 /* Build configuration list for PBXNativeTarget "DingKit" */ = {
+		A15B964532EBBD7C0FF24BD86AF66BB9 /* Build configuration list for PBXNativeTarget "DingKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DD2EF4021A3020009592751189D151B /* Debug */,
-				CA4EC663748F716926069AEAF37B0FFD /* Release */,
+				B9E0AF8AE842FE73BB9BE466508E5B53 /* Debug */,
+				60D70205C409F0982B6B7D9768A9A8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
