@@ -38,9 +38,9 @@ FanKit该项目最低支持 iOS 7.0。
 注意：只是个别支持iOS7.0，其他几乎可以兼容到iOS6，5，4
 
 
-Function Example(功能事例)
+Announcements(注意事项)
 ==============
-### 1.Example List（功能列表）
+#### 若要执行pod search 'DingKit' 需要先执行一遍pod update 若执行pod update 依然search不到执行 rm ~/Library/Caches/CocoaPods/search_index.json删除本地搜索索引
 
 
 Like(喜欢)
